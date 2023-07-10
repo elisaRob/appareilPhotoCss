@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:bisque;
+    /* z-index:-1; */
+  
+}
+
+.appareilPhoto{
+    width:205px;
+    height:155px;
+    border-radius:15px;
+    background-color:#333;
+    box-shadow:0 10px 15px -13px black;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.lentille{
+    width:125px;
+    height:125px;
+    background-color:#f5f5f5;
+    border-radius:50%;
+    box-shadow:0 8px 0 0 grey;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.interieurLentille{
+    width:105px;
+    height:105px;
+    background-color:#00695C;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.interieurLentille-2{
+    border-top:31px solid green;
+    border-right:31px solid darkgreen;
+    border-bottom:31px solid greenyellow;
+    border-left:31px solid green;
+    border-radius:50%;
+}
+
+.flash{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background-color:#f5f5f5;
+    border-radius:50%;
+    box-shadow:0 4px 0 0 #C0C0C0;
+    top:15px;
+    right:15px;
+}
+
+.bouton{
+    /* z-index:3; */
+    position:absolute;
+    width:30px;
+    height:5px;
+    background-color:#009587;
+    left:16px;
+    top:-5px;
+    border-radius:30px;
+}
